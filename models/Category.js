@@ -9,16 +9,22 @@ Category.init(
     // Columns Go Here! //
 
     // Column #1 - ID //
-    // Set the column name to ID
     id: {
-      // Type - Set this to integer
+      // Data Type - Set this to integer
       type: DataTypes.INTEGER,
-      // Does NOT allow null variables
+      // Does NOT allow null
       allowNull: false,
       // Set as primary key
       primaryKey: true,
       // Uses auto increment
       autoIncrement: true,
+    },
+    // Column #2 - Category Name //
+    category_name: {
+      // Data Type - set this to string
+      type: DataTypes.STRING,
+      // Does NOT allow null
+      allowNull: false,
     },
   },
 
