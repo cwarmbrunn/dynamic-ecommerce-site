@@ -11,7 +11,6 @@ router.get("/", (req, res) => {
 
   Product.findAll({
     // Be sure to include its associated Category and Tag data //
-    // NEED TO CONFIRM IN OFFICE HOURS //
     include: [
       // Associated Category - includes ID and Category Name
       { model: Category, attributes: ["id", "category_name"] },
@@ -31,7 +30,7 @@ router.get("/:id", (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
   Product.findOne({
-    // NEED TO CONFIRM IN OFFICE HOURS //
+
     where: { id: req.params.id },
     include: [
       // Associated Category - includes ID and Category Name
@@ -57,10 +56,10 @@ router.get("/:id", (req, res) => {
 router.post("/", (req, res) => {
   /* req.body should look like this...
      {
-     " product_name": "Basketball",
-      "price": 200.00,
-     " stock": 3,
-     " tagIds": [1, 2, 3, 4]
+     "product_name": "Basketball",
+     "price": 200.00,
+     "stock": 3,
+     "tagIds": [1, 2, 3, 4]
     }
   */
   Product.create(req.body)
