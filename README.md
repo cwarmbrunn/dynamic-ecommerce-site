@@ -29,19 +29,19 @@ As is this a non-deployed application - there is no live site - look at the inst
 
 Use _npm i_ or _npm install_ to download the necessary npm packages.
 
-Next, log into MySQL with the following command *mysql -u root -p* and enter in your MySQL password.
+Next, log into MySQL with the following command _mysql -u root -p_ and enter in your MySQL password.
 
-Then, after your login is successful, run *source db/schema.sql* to use the schema. 
+Then, after your login is successful, run _source db/schema.sql_ to use the schema.
 
-After this, quit using the *quit* command. 
+After this, quit using the _quit_ command.
 
-Open a Powershell terminal and enter *npm run seed*. 
+Open a Powershell terminal and enter _npm run seed_.
 
 Finally, you can run **npm start** to begin the application and go to http://localhost:3001 via Insomnia or your local browser and begin using the /api endpoints.
 
 ---
 
 **Screenshot and Walkthrough Video:**
-![Screenshot Text TBD ]()
+![Screenshot Text TBD ](./assets/screenshot.jpg)
 
-Walkthrough Video: [Here]()
+Walkthrough Video: [Here](https://watch.screencastify.com/v/pIgrtJGg4Z5tqOUiwfTg)
