@@ -42,6 +42,6 @@ Finally, you can run **npm start** to begin the application and go to http://loc
 ---
 
 **Screenshot and Walkthrough Video:**
-![Screenshot Text TBD ](./assets/screenshot.jpg)
+![A screenshot of a functioning GET Route in Insomnia ](./assets/screenshot.jpg)
 
 Walkthrough Video: [Here](https://watch.screencastify.com/v/pIgrtJGg4Z5tqOUiwfTg)
